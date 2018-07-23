@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.user.bangundesaku.menuuser.LaporanDesaActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                style="@style/txt_form"
+                android:text="Nama Desa"
+                />
+            <EditText
+                android:id="@+id/et_nama_desa"
+                style="@style/edittex_style2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                style="@style/txt_form"
+                android:text="Daerah"
+                />
+
+            <EditText
+                android:id="@+id/et_nama_daerah"
+                style="@style/edittex_style2"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                style="@style/txt_form"
+                android:text="Judul Laporan"
+                />
+            <EditText
+                android:id="@+id/et_judul_caption"
+                style="@style/edittex_style2"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            style="@style/txt_form"
+            android:text="Caption Laporan"
+            />
+        <EditText
+            android:id="@+id/et_laporan_caption"
+            style="@style/edittex_style2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            style="@style/txt_form"
+            android:text="Dokumentasi Kegiatan"
+            />
+        <EditText
+            android:id="@+id/et_dokumentasi"
+            style="@style/edittex_style2"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit_laporkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laporkan"
+        style="@style/button_style2"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel_back_slider"
+    tools:context="com.example.user.bangundesaku.intro.IntroActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_myslider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:id="@+id/line_slider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_titik"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_slider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/layout_titik"
+        android:id="@+id/mymagic"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/btn_lewati"
+            android:text="Lewati"
+            style="@style/button_style"
+            android:layout_marginRight="30dp"
+            />
+
+        <Button
+            android:id="@+id/btn_lanjut"
+            android:text="Lanjut"
+            style="@style/button_style"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

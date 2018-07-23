@@ -1,0 +1,20 @@
+Deskripsi Aplikasi
+Batasan Sistem
+Sasaran Pengguna Dampak
+Fitur APlikasi
+Analisa SWOT
+
+#tambahan 
+   *input data desa : potensi, masalah, visi misi;
+
+*tips trick mengetahui permasalahan desa : 1. liat potensi, dan visi misi
+
+#manfaat makek aplikasi ini :
+1. bisa lebih preaper karena bisa milih masalah yang bisa diambil
+2. meningkat presentase kecocokan jurusan masalah, kalo jurusan dan msalah desanya tepat
+3. 
+
+
+#Masalah ?
+1. Apakah pihak Desa mau ngepost masalah nya / kebutuhannya ?
+2. minat mahasiswa untuk mengambil permasalahan yang tingkat kesulitannya tinggi ?

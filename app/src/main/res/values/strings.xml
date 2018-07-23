@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">BantuDesaku</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="kelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+
+    <string-array name="idCard">
+        <item>KTP</item>
+        <item>KTM</item>
+        <item>SIM</item>
+        <item>Lainya</item>
+    </string-array>
+
+
+    <string-array name="user">
+        <item>Masyarakat</item>
+        <item>Pihak Desa</item>
+    </string-array>
+
+    <string-array name="sponsjor">
+        <item>Buka</item>
+        <item>Tidak Buka</item>
+    </string-array>
+
+    <string-array name="daerah">
+        <item>Semua</item>
+        <item>Malang</item>
+        <item>Bandung</item>
+        <item>Banyuwangi</item>
+        <item>Cilacap</item>
+        <item>Nganjuk</item>
+        <item>Purwokerto</item>
+    </string-array>
+
+    <string-array name="topik">
+        <item>Semua</item>
+        <item>Kesehatan</item>
+        <item>Ekonomi</item>
+        <item>Pendidikan</item>
+        <item>Kesehatan</item>
+        <item>Pertanian</item>
+        <item>Pariwisata</item>
+        <item>Lain - Lain</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

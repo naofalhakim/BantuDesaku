@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/startdebg2"
+    tools:context="com.example.user.bangundesaku.login.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buat Akun"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/et_nama"
+        style="@style/edittex_style"
+        android:hint="Nama Lengkap"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_ktp"
+        android:hint="KTM / KTP"
+        style="@style/edittex_style"
+        />
+
+    <EditText
+        android:id="@+id/et_instansi"
+        android:hint="Instansi"
+        style="@style/edittex_style"
+        />
+
+
+    <EditText
+        android:id="@+id/et_email_reg"
+        android:hint="exmaple@gmail.com"
+        android:inputType="textEmailAddress"
+        style="@style/edittex_style"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/et_pass_reg"
+        android:hint="Password"
+        android:inputType="textPassword"
+        style="@style/edittex_style"
+        />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/sp_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        android:padding="5dp"
+        >
+
+    </Spinner>
+
+    <Spinner
+        android:padding="5dp"
+        android:id="@+id/sp_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        >
+
+    </Spinner>
+
+    <Spinner
+        android:padding="5dp"
+        android:id="@+id/sp_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+
+        >
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/button_style"
+        android:textAllCaps="false"
+        android:text="Buat Akun"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        />
+
+
+</LinearLayout>

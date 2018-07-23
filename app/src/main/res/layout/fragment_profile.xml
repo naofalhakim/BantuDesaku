@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.bangundesaku.menufragment.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/img_akun"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/avatarcewek"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubah foto"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            />
+
+        <EditText
+            android:id="@+id/txt_nama_akun"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diah Aejeng Dwi Yuniasih"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorText"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1301154558"
+            android:background="@android:color/transparent"
+            android:id="@+id/txt_nim"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorText"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instansi"
+            />
+
+        <EditText
+            android:id="@+id/txt_instansi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Telkom University"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorText"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status KKN"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <EditText
+                android:id="@+id/txt_tempatKKN"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desa Tegal - "
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorText"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/txt_statusKKN"
+                android:layout_width="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                android:text="Menunggu"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorError"
+                android:layout_alignParentRight="true"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            />
+
+        <EditText
+            android:id="@+id/txt_tglLahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03/03/2010"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorText"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            />
+
+        <EditText
+            android:id="@+id/txt_kelamin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorText"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:background="@android:color/transparent"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText">
+
+    </View>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/button_style2"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:text="Simpan"
+        android:id="@+id/btn_simpan_akun"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+
+            android:title="Main Menu" />
+        <!--<item-->
+            <!--android:id="@+id/nav_posting"-->
+
+            <!--android:title="Beranda" />-->
+        <item
+            android:id="@+id/nav_akun"
+
+            android:title="Akun" />
+        <item
+            android:id="@+id/nav_permintaan"
+            android:title="Permintaan KKN (10)" />
+
+        <item
+            android:id="@+id/nav_lapordesa"
+            android:title="Laporkan Desamu" />
+
+        <item
+            android:id="@+id/nav_bantudesa"
+
+            android:title="Bantu Desa Mu" />
+        <item
+            android:id="@+id/nav_about"
+
+            android:title="Tentang Kami" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>

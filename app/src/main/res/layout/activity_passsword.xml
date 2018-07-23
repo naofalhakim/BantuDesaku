@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/startdebg2"
+    tools:context="com.example.user.bangundesaku.login.PassswordActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Email Benar"
+        android:textSize="17sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan kata sandi untuk masuk ke akun
+dengan example@gmail.com"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        />
+
+    <EditText
+        android:id="@+id/et_passwrod"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textVisiblePassword"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:backgroundTint="@color/colorWhite"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btn_lupa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorWhite"
+            android:text="Lupa kata sandi ?"
+            android:layout_centerVertical="true"
+            android:textAllCaps="false"
+            android:layout_alignParentLeft="true"
+
+            />
+
+        <Button
+            android:id="@+id/btn_masuk"
+            style="@style/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:text="Masuk"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dengan menggunakan bantu desaku, kamu menyetujui peraturan layanan dan kebijakan privasi."
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        />
+
+</LinearLayout>
